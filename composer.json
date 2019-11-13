@@ -1,0 +1,29 @@
+{
+    "name": "aetiom/php-utils",
+    "type": "library",
+    "description": "Extended PHP utilities",
+    "keywords": ["php", "utilities", "session", "asset", "token"],
+    "homepage": "https://github.com/aetiom/php-utils",
+    "time": "2019-10-28",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+        "name": "Alexandre Moittié / Aetiom",
+        "homepage": "https://github.com/aetiom",
+        "email": "aetiom@protonmail.com"
+        }
+    ],
+    "support": {
+        "email": "aetiom@protonmail.com",
+        "issues": "https://github.com/aetiom/php-utils/issues",
+        "source": "https://github.com/aetiom/php-utils"
+    },
+    "require": {
+        "php": "^7.0.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpUtils\\": "src/"
+        }
+    }
+}
